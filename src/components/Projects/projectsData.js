@@ -1,0 +1,86 @@
+import {
+  project1Laptop,
+  project1Mobile,
+  project2Laptop,
+  project2Mobile,
+  project3Laptop,
+  project3Mobile,
+  project4Laptop,
+  project4Mobile,
+  project5Laptop,
+  project5Mobile,
+  project6Laptop,
+  project6Mobile,
+  project7,
+  blackjack,
+  teamMember,
+  TravelJournal1,
+  Travel,
+  TeamMembers1,
+  TJ,
+  blackJack1,
+  receipe2,
+  clone,
+
+} from "./projectImages";
+
+export const projectData = [
+  {
+    id: 1,
+    image: TJ,
+    transitionImage: TJ,
+    title: "Travel Journal",
+    codeLink: "https://github.com/BeatyWonder/ReactTravelJournal",
+    liveLink: "https://journal-app-beaty.netlify.app/",
+  },
+  {
+    id: 2,
+    image: clone,
+    transitionImage: clone,
+    title: "Air Bnb Experience Clone",
+    codeLink: "https://github.com/BeatyWonder/AirBnBexperiences-UI-clone",
+    liveLink: "https://airbnb-experiences-ui-clone.netlify.app/",
+  },
+  {
+    id: 3,
+    image: receipe2 ,
+    transitionImage: receipe2,
+    title: "Receipe Application",
+    codeLink: "https://github.com/BeatyWonder/TeamMemberAllocation-",
+    liveLink: "https://recipe-application.beatymaina.repl.co/",
+  },
+ 
+  {
+    id: 4,
+    image: TeamMembers1,
+    transitionImage: TeamMembers1,
+    title: "Team Member Allocation App",
+    codeLink: "https://github.com/BeatyWonder/TeamMemberAllocation-",
+    liveLink: "https://team-member-allocation-beaty.netlify.app/",
+  },
+
+  {
+    id: 5,
+    image: blackjack,
+    transitionImage: blackjack,
+    title: "Black Jack Game",
+    codeLink: "https://github.com/BeatyWonder/BlackJack-Scrimba-Game",
+    liveLink: "https://blackjackgamescrimba.netlify.app/",
+  },
+  {/*{
+    id: 6,
+    image: project5Laptop,
+    transitionImage: project5Mobile,
+    title: "Gym Fitness Website",
+    codeLink: "https://github.com/monciego/intrepide",
+    liveLink: "https://intrepide.netlify.app/",
+  },
+  {
+    id: 7,
+    image: project6Laptop,
+    transitionImage: project6Mobile,
+    title: "Space Tourism",
+    codeLink: "https://github.com/monciego/space-tourism",
+    liveLink: "https://spacetourism-monciego.netlify.app/",
+  },*/}
+];
